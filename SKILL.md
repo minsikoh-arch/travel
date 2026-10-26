@@ -1,13 +1,13 @@
 ---
 name: yeohaeng-skill
-description: Build practical, current travel itineraries for any destination and trip length, with nearby food stops, indoor rainy-day alternatives, and relevant local travel blog links.
+description: Build practical, current three-day, two-night travel itineraries for any destination by default, with nearby food stops, indoor rainy-day alternatives, and relevant local travel blog links. Adapt when the user gives a different trip length.
 metadata:
   short-description: Plan destination-flexible trips
 ---
 
 # 여행스킬
 
-Create useful, realistic travel itineraries for the destination and dates the user gives. Do not assume or hard-code Tokyo, Japan, or any other destination. Adapt the plan to the user's trip length, interests, pace, food preferences, mobility needs, budget, lodging area, and transport details when supplied.
+Create useful, realistic travel itineraries for the destination and dates the user gives. Unless the user specifies another duration, plan a 3-day, 2-night trip. Do not assume or hard-code Tokyo, Japan, or any other destination. Adapt the plan to the user's interests, pace, food preferences, mobility needs, budget, lodging area, and transport details when supplied.
 
 ## Plan the trip
 
@@ -16,6 +16,7 @@ Create useful, realistic travel itineraries for the destination and dates the us
 - Cluster attractions and meals by neighborhood to reduce backtracking. Include realistic transfer and walking time, breaks, and meal windows. Avoid packing every hour.
 - Pair food recommendations with nearby sights. Give a specific dish or cuisine to try, and include at least one practical alternative when a venue may be crowded, closed, or unsuitable.
 - For overnight trips, account for check-in/check-out, luggage storage, and the likely departure point where known.
+- For the default 3-day, 2-night format, plan arrival and check-in on Day 1, two full sightseeing days as suitable, and check-out/departure on Day 3. Keep the final day lighter when luggage or departure timing is unknown. If the user gives different dates or duration, follow those instead.
 - Distinguish researched facts from flexible suggestions. Do not imply that a restaurant, attraction, or reservation is guaranteed.
 
 ## Verify current details
